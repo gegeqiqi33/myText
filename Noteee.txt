@@ -1,0 +1,128 @@
+﻿Lisa   Steve   (Spine)
+Open People Cloud, access all data sources, 
+	Open Innovation Box
+	ID level+ non ID level follow style guide
+	All data tools
+
+Radar serial - City Radar (lower city）
+
+Meta Graph - a panel with indevidule data
+
+AI: 
+
+Map tools belong to AI. Tech,  Invest on area , to get output. 
+
+MJN data analytic use Machine Learning  
+
+
+
+PPC pixel server set up, 
+Data enrichment plan,
+China OTT playbook address OTT market landscape, OTT ad types, media reach, tracking and data, performance evaluation etc.
+	
+
+数据隐私保护:
+
+k-anonymity: 给定一个人，通过泛化K条敏感熟悉，增加重叠度，防止在公布的信息表中定位这个人。
+	     攻击者无法知道某个人是否在公开的数据中
+	     给定一个人，攻击者无法确认他是否有某项敏感属性
+l-diversity 保证了相同类型数据中至少有 l 种内容不同的敏感属性。
+
+差分攻击 ( differential attack ): 公布一个100%统计结果，如果我知道99%，可以确定那1%。
+	可以在查询结果中加入噪声，以保证输出分布均匀。
+
+PPC collect and aggregate data from multiple resources. It is a DMP and beyond: 
+It’s a media and consumer intelligent engine which provide consumer trend and market insight by region and globally.  
+It’s a campaign performance driver and optimizer, capable to direct engage re-targeting campaign with data activation. 
+It’s a marketing strategy assistant that provide data support for decision maker. 
+
+PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
+
+Pixel servers setup on Amazon's AWS cloud, we have 5 servers total, Site2runDSP(MongoDB), CNDDproxy(Ngix load balance),
+ 2 x ecsNorth + 1...
+it designed use JS code to redirect user to have user inital ID_mapping http call to our pixel server. 
+It carries partner_id and cookie, 
+next will have data go through Kinesis stream process, eventually drop in at AWS S3 for longterm storage.
+
+
+PPC has several layers, top is UI layer, a web app have user interact with system.
+Next is application layers linked with features like DMP tools, media planning, digital/TV activation...Then is data processing
+layer include storage, data modeling, segmentation, ETL... the bottom is data ingestion,(collection),include 1st and 3rd party
+data onboranding, pixel server, bidding... All on AWS. We deployed an additional Pixel Server on China AWS for China. 
+ 
+
+
+PubKey/PrivateKey  A --msg --> B
+
+A use B's PubK encryption msg + A's PrivK signature, 
+B use A's PubK check signature, use B's PrivK decrypting msg
+
+
+
+Freq Control without extra DMP support: PPC 
+DSP campaign related data ->trading desk      3rd party data(insight, analytic) -> DTI
+
+Fuge sys tagging feature
+Weborama PPC vendor
+
+
+Amy (Aus Bld)Jane Freeman  Ben Allan(France)  Jason(Aus)   
+Chris Mayer:  China Data landscape
+
+Stephen: build infrastructure that easy plug in. 
+Shann: 4 pillars collection, process analysis activation
+
+
+Web matrix standalong feature sale
+Prioritize Hero app Mobile data collection wait andy carter
+
+Lexus log in 
+
+
+ARI: Audience Research Insight      -ChrisM   
+BT: Business Transform      -ShannB
+TO: Tech Operation     -BenO
+
+
+PCR_form: who to use- ARI,BT,TO, Agency, AOD team(JoBeh);  except DTI(include DTI Erica recomm) 
+	  Process: Get practice lead approved email, Vinny coordinate -> evaluation ->
+
+
+
+	
+
+
+
+
+微信-OpenID 扫码溯源  物流码 + 防伪码（user)
+
+"Thomas Carroll" <thomas.carroll@publicismedia.com>
+
+--------------------------------------------------
+
+
+http://clickc.admaster.com.cn/c/a58846,b1203705,c299,i0,m101,k9,h,uhttp%3a%2f%2ft1.chinavivaki.com%2fhat%3f_t%3dr%26type%3dclk%26hat_id%3dNTA2JjM3NiYyMjM1JjY3MzUmMTQwOTEzJoRp%26_z%3dm%26os%3d__OS__%26imei%3d__IMEI__%26mac%3d__MAC__%26mac1%3d__MAC1__%26idfa%3d__IDFA__%26openudid%3d__OPENUDID__%26androidid%3d__ANDROIDID__%26androidid1%3d__ANDROIDID1__%26aaid%3d__AAID__%26duid%3d__DUID__%26udid%3d__UDID__%26ip%3d__IP__%26useragent%3d__UA__%26ts%3d__TS__%26_ul%3dhttp%253A%252F%252Fwww.meadjohnson.com.cn%252FArmani-blue%253Fhat_id%253DNTA2JjM3NiYyMjM1JjY3MzUmMTQwOTEzJoRp
+
+
+Vivaki tracking code:
+http://t1.chinavivaki.com/hat?_t=r&type=clk&hat_id=NTA2JjM3NiYyMjM1JjY3MzUmMTQwOTE1Jgx3&_z=m&os=__OS__&imei=__IMEI__&mac=__MAC__&mac1=__MAC1__&idfa=__IDFA__&openudid=__OPENUDID__&androidid=__ANDROIDID__&androidid1=__ANDROIDID1__&aaid=__AAID__&duid=__DUID__&udid=__UDID__&ip=__IP__&useragent=__UA__&ts=__TS__&_ul=http%3A%2F%2Fwww.meadjohnson.com.cn%2FArmani-blue%3Fhat_id%3DNTA2JjM3NiYyMjM1JjY3MzUmMTQwOTE1Jgx3
+
+
+
+百度点击URL: -> Admaster -> Vivaki
+http://www.baidu.com/baidu.php?url=Kf0000jA5uApXoP2PGyHQ3fol-MPcF1ak9uTX5yoJ--Rvx9vnKdloOezWQrXu7nNSDqPA-wdP6Pv0vJWytsB3teH9d5kLXJ--jGH6EaHMJKVQqV4c8NhYHN0MdsjgFHCOlSMZucVohWPKsPENodtRNfH1dte9qFykf0gsQy-dkK62AtCR6.DR_ifYgsq_5b1IGuWCFhG696uLUPMuvxrSEFuktUnM19zUqO1xutqPI-x1eTM1JSXaJ9fk3XQrZFos4PIaEztZY5S9MVXWjbddnYn5ZgzYn5AlUjblpAWAMjk89Cq8ZFYdnYrg793Lx-Ofq8HOpzOkr54gOqWwODOfdIZSd-Oe7M4XAZHODOfSOuOwOfeXWOpztEeXZFYt8aW93LNR2A5jbLTxU9zU_Mds4PvHltZKsXy-QPvNdRRUCJTrHIbSEVhY_k51LYTaTrHIkSVHPj-kmTheWtEzOCXLFOVux3MZtoOSkCOBxCp8WOpzOqB1tEjjGOBxCxx_OCOCIEwOVuXgqVi_nYQAHIkLI260.U1Yk0ZDqstjRLortYn2sOPXsknzLvsKY5T50dPl1EPja_51g_nHnVq_0pyYqnWcd0ATqTZPzuv4Bp6KdpHdBmy-bIfKspyfqnfKWpyfqn16z0AdY5HDsnHIxnH0krNt1PW0k0AVG5H00TMfqrHDz0ANGujYkPjcdg1cknjb1g1DLnj0k0AFG5HcsP7tkPHR0Uynqn1DsPWcsnWczg1nknHDsnjDzr7ts0Z7spyfqn0Kkmv-b5H00ThIYmyTqn0KEIhsqrj61Qywlg163nd6VuZC0mycqn7ts0ANzu1Ys0ZKs5H00UMus5H08nj0snj0snj00Ugws5H00uAwETjYs0ZFJ5H00uANv5gKW0AuY5H00TA6qn0KET1Ys0AFL5HT0UMfqn0K1XWY0IZN15Hm4rj6znWTdrHfYPW6knj0znjf0ThNkIjYkPj61PW61PjR3PjTs0ZPGujd9nhu-P1RdPH0snj0Ynj7-0AP1UHYvPR77PYPaPjPaPYwKwbfY0A7W5HD0TA3qn0KkUgfqn0KkUgnqn0KlIjYvPHR1P6KVmdqhThqV5HKxn7ts0AwYpyfqn0K-IA-b5iYk0A71TAPW5H00IgKGUhPW5H00Tydh5H00uhPdIjYs0AulpjYs0ZGsUZN15H00mywhUA7M5HD0mLFW5HfYn1Tv&ck=5410.13.107.374.145.507.260.3563&shh=www.baidu.com&sht=baidu&ie=utf-8&f=8&tn=baidu&wd=%E7%BE%8E%E8%B5%9E%E8%87%A3%E6%96%B0%E5%8C%85%E8%A3%85%E5%A5%B6%E7%B2%89&rqlang=cn&bc=110101&us=1.9599.2.0.3.2115.0.0
+媒体质量
+CPD(cost per day) > CPM > PDB(prog direct buy)
+
+   
+InMobi: 覆盖66%IOS流量 SDK在中国覆盖6万个APP   LBS定位约2km半径
+       
+------------------------------
+Mike Liang 晶赞CTO  上海
+
+Lexus tracking 代码 用晶赞平台
+
+-----------------------------
+EF 标签权重问题：网站标签-> 兴趣标签，权重是LDA算出来的
+
+ 
